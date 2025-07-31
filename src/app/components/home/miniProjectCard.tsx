@@ -21,7 +21,8 @@ const MiniProjectCard: React.FC<MiniProjectCardProps> = ({
   return (
     <a
       href={link}
-      className="block relative overflow-hidden"
+      rel="noopener noreferrer"
+      className="group relative block overflow-hidden"
       style={{
         border: `2px solid ${borderColor}`,
         background: bgColor,
@@ -30,14 +31,29 @@ const MiniProjectCard: React.FC<MiniProjectCardProps> = ({
       aria-label={alt}
     >
       {ribbon}
-      <Image
-        src={image}
-        alt={alt}
-        className="object-cover w-full h-full"
-        draggable={false}
-        width={1920}
-        height={1080}
-      />
+
+      <div className="relative w-full h-full">
+        <Image
+          src={image}
+          alt={alt}
+          className="object-cover w-full h-full transition-opacity duration-500"
+          draggable={false}
+          width={1920}
+          height={1080}
+        />
+
+        <div
+          className="absolute inset-0 bg-black hover:opacity-80 flex items-center justify-center 
+                     transition-opacity duration-500 opacity-0"
+        >
+          <div
+            className="text-white text-center text-2xl font-bold px-4 
+                        transition-opacity duration-500"
+          >
+            {alt}
+          </div>
+        </div>
+      </div>
     </a>
   );
 };

@@ -77,15 +77,31 @@ export default function Home() {
         <div className="flex gap-4">
           <MiniProjectCard
             image="/images/DDE/homeImage.png"
-            link="/projects/project1"
-            alt="Project 1"
+            link="/projects/DDE"
+            alt="Dear Digital Equity"
             borderColor="#EBE5FF"
             bgColor="#F4F1FF"
           />
           <MiniProjectCard
             image="/images/AtlasPT/homeImage.png"
-            link="/projects/project2"
-            alt="Project 2"
+            link="https://www.atlaspt.org/"
+            alt="Atlas Physical Therapy"
+            borderColor="#EEEEEE"
+            bgColor="#FFFFFF"
+          />
+        </div>
+        <div className="flex gap-4 mt-4">
+          <MiniProjectCard
+            image="/images/AtlasWR/homeImage.png"
+            link="https://www.atlasworkrehabilitation.org/"
+            alt="Atlas Work Rehabilitation"
+            borderColor="#EEEEEE"
+            bgColor="#FFFFFF"
+          />
+          <MiniProjectCard
+            image="/images/AlaisaInWonderland/homeImage.png"
+            link="#"
+            alt="A'Laisa In Wonderland"
             borderColor="#EBE5FF"
             bgColor="#FFFFFF"
           />

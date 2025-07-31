@@ -62,15 +62,14 @@ export default function Tourify() {
   }, []);
 
   useEffect(() => {
-    // Scroll to top button functionality (matching StuddySpotter's class control)
     const mybutton = document.getElementById("myBtn");
     const scrollFunction = () => {
       if (
         document.body.scrollTop > 20 ||
         document.documentElement.scrollTop > 20
       ) {
-        mybutton?.classList.remove("hidden", "lg:flex"); // Remove both to reset
-        mybutton?.classList.add("lg:flex"); // Only add lg:flex if it's supposed to be flex on large screens
+        mybutton?.classList.remove("hidden", "lg:flex"); 
+        mybutton?.classList.add("lg:flex"); 
       } else {
         mybutton?.classList.remove("lg:flex");
         mybutton?.classList.add("hidden");

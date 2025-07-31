@@ -12,10 +12,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const stored = localStorage.getItem("theme");
-    if (
-      stored === "dark" ||
-      (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
+    if (stored === "dark") {
       setTheme("dark");
       document.documentElement.classList.add("dark");
     } else {

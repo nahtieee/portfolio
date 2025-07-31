@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f8f8;
+  --foreground: #252525;
+  --color-accent: #45abff;
+}
+
+@theme color {
+  --color-eyebrow: #4590ff;
+
+  
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--color-accent);
+
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+}
+
+html.dark body{
+  background: var(--foreground);
+  color: var(--background);
+
+}
+
+html svg {
+  stroke: var(--foreground);
+}
+
+html.dark svg {
+  stroke: var(--background);
+}
+
+html.dark .mobile-menu {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+html.dark nav{
+  background: #252525E6;
+}
+
+html.dark .project-nav{
+  background: #252525E6;
+  color: var(--background);
+}
+
+html.dark .mobile-menu img {
+  filter: invert(1);
+}
+
+html.dark .mobile-menu-button{
+  background: orange;
+}
+
+html.dark .home-icons {
+  filter: invert(1);
+  
+}
+
+html.dark .footer-icons {
+  filter: invert(1);
+  
+}
+
+html.dark .home-icons:hover {
+  background: rgb(48, 48, 48);
+}
+
+html.dark .hero-border{
+  border-color: #3a3a3a;
+}
+
+html.dark .up-botton {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html .up-botton svg {
+  stroke: var(--color-background)
+}
+
+html.dark .up-botton svg {
+  stroke: var(--color-foreground)
+}
+
+html.dark .key-features {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.poppins-bold {
+  font-family: var(--font-poppins-bold), var(--font-poppins), Helvetica, Arial,
+    sans-serif;
+  font-weight: 700;
+}

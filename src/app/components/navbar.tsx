@@ -78,7 +78,7 @@ export default function Navbar() {
   }, []);
   return (
     <nav
-      className={`autohide w-full flex items-center justify-between py-4 border-gray-200 bg-[#F8F8F8E6] sticky top-0 z-100 transition-transform duration-300 navbar ${
+      className={`autohide w-full flex items-center justify-between py-4 bg-[#F8F8F8E6] text-black sticky top-0 z-100 transition-transform duration-300 navbar ${
         scrolledDown ? "-translate-y-full" : "translate-y-0"
       }`}
     >

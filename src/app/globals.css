@@ -47,6 +47,11 @@ html.dark .mobile-menu {
 
 html.dark nav{
   background: #252525E6;
+  color: white;
+}
+
+html.light nav{
+  background: #F8F8F8E6;
 }
 
 html.dark .project-nav{

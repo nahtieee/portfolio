@@ -555,7 +555,6 @@ export default function MindfulU() {
           </section>
           {/* Next Projects */}
           <section className="container mx-auto px-4">
-            {/* Next Projects */}
             <div className="mt-20 mb-10">
               <h5 className="mb-5 font-bold text-xl">Explore other work!</h5>
               <div className="flex flex-col md:flex-row gap-8 w-full">
@@ -576,7 +575,7 @@ export default function MindfulU() {
                   <Image
                     src="/images/StuddySpotter/SSLogo.jpg"
                     alt="StuddySpotter"
-                    className="w-full h-full  object-cover rounded-lg border-2 border-purple-400 shadow"
+                    className="w-full h-full object-cover rounded-lg border-2 border-purple-400 shadow"
                     draggable={false}
                     width={1920}
                     height={1080}

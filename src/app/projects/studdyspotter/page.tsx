@@ -893,7 +893,6 @@ export default function StuddySpotter() {
           </div>
           {/* Next Projects */}
           <section className="container mx-auto px-4">
-            {/* Next Projects */}
             <div className="mt-20 mb-10">
               <h5 className="mb-5 font-bold text-xl">Explore other work!</h5>
               <div className="flex flex-col md:flex-row gap-8 w-full">

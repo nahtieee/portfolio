@@ -164,7 +164,6 @@ export default function Tourify() {
 
         <div className="">
           {" "}
-          {/* Main content wrapper */}
           {/* Overview Section */}
           <section id="overview" className="mt-12">
             <div className="flex flex-col md:flex-row gap-12 md:gap-44 mb-10 container mx-auto px-4">
@@ -183,7 +182,6 @@ export default function Tourify() {
                 </h5>
                 <div className="mt-4">
                   {" "}
-                  {/* Added a div for the links as in StuddySpotter */}
                   <a
                     href="https://historicedmonds.org/"
                     target="_blank"
@@ -194,7 +192,7 @@ export default function Tourify() {
                       Edmonds Historical Museum
                     </span>
                   </a>{" "}
-                  / {/* Separator from original */}
+                  / 
                   <a
                     href="https://www.figma.com/proto/RY7CWgUQlJrjYp05kLHgX9/Tourify?page-id=1%3A66&type=design&node-id=1-91&viewport=399%2C125%2C0.13&t=UNn3cte37wRRgHol-1&scaling=scale-down&starting-point-node-id=1%3A91&mode=design"
                     target="_blank"
@@ -221,7 +219,6 @@ export default function Tourify() {
                   <h5 className="font-bold text-xl mb-1">Roles</h5>
                   <ul className="mb-2 leading-loose list-none p-0 text-lg">
                     {" "}
-                    {/* Removed list-disc */}
                     <li>
                       Ethan Dith, <span className="font-bold">Designer</span>
                     </li>
@@ -237,7 +234,6 @@ export default function Tourify() {
                   <h5 className="font-bold text-xl mb-1">Skills</h5>
                   <ul className="mb-2 leading-loose list-none p-0 text-lg">
                     {" "}
-                    {/* Removed list-disc */}
                     <li>Prototyping</li>
                     <li>Researching</li>
                   </ul>
@@ -246,7 +242,6 @@ export default function Tourify() {
                   <h5 className="font-bold text-xl mb-1">Project Duration</h5>
                   <ul className="leading-loose list-none p-0 text-lg">
                     {" "}
-                    {/* Removed list-disc */}
                     <li>10 Weeks</li>
                   </ul>
                 </div>
@@ -267,7 +262,6 @@ export default function Tourify() {
           <section id="problem" className="mt-12 container mx-auto px-4">
             <h6 className="text-blue-400 text-lg uppercase mb-2 font-semibold tracking-wider">
               {" "}
-              {/* Adjusted color and classes */}
               The Problem
             </h6>
             <h2 className="font-bold text-4xl mb-4">
@@ -357,7 +351,6 @@ export default function Tourify() {
               </div>
               <div className="lg:w-5/7 flex flex-col justify-center">
                 {" "}
-                {/* Added flex-col justify-center for vertical alignment */}
                 <h5 className="font-bold text-xl mb-4">
                   {" "}
                   Opportunity for Research and Design (Research Findings):
@@ -465,10 +458,8 @@ export default function Tourify() {
             <h5 className="font-bold text-2xl mb-8">Initial Concepts</h5>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               {" "}
-              {/* gap-6 matching StuddySpotter */}
               <div className="p-10 border flex flex-col items-center key-features bg-gray-100 text-black rounded-2xl">
                 {" "}
-                {/* Adjusted colors */}
                 <Image src="/images/Tourify/InterationVR.svg" height={1920} width={1080} alt="Virtual Reality"/>
                 <h5 className="font-bold text-xl mb-2">VR Tours</h5>
                 <h6 className="text-lg text-center">
@@ -530,7 +521,7 @@ export default function Tourify() {
                 </li>
               </ul>
             </div>
-            <hr className="my-12" /> {/* mt-12 mb-12 matching StuddySpotter */}
+            <hr className="my-12" /> 
             <h2 className="font-bold text-4xl mb-4">Initial Mockup</h2>
             <h5 className="text-xl mb-12">
               The initial design reflects some of the key features that we plan
@@ -573,8 +564,7 @@ export default function Tourify() {
               changes to our initial design.
             </h5>
             <h5 className="font-bold text-xl mb-3">Changes</h5>{" "}
-            {/* Adjusted for consistency with other headings */}
-            <div className="space-y-3 mb-24">
+=            <div className="space-y-3 mb-24">
               {" "}
               <h5 className="text-xl">
                 <span className="text-blue-400 mr-2">&bull;</span>Remove
@@ -646,7 +636,6 @@ export default function Tourify() {
               height={1080}
             />
           </section>
-          {/* Conclusion Section */}
           <section id="conclusion" className="mt-20 container mx-auto px-4">
             <hr className="mt-30 mb-12" />
             <h2 className="font-bold text-4xl mb-4">Next Steps:</h2>
@@ -687,7 +676,6 @@ export default function Tourify() {
             </ul>
             <h6 className="text-blue-400 uppercase mb-2 text-lg font-semibold tracking-wider">
               {" "}
-              {/* Adjusted classes */}
               Conclusion + Lessons
             </h6>
             <h2 className="font-bold text-4xl mb-4">

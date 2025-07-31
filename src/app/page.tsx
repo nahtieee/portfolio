@@ -44,7 +44,7 @@ export default function Home() {
           details="Mobile Concept • Hackathon"
           tags={["UI Design", "IOS/Android"]}
           image="/images/MU/homeImage.png"
-          link="/projects/MindfulU"
+          link="/projects/mindfulu"
           borderColor="#DFEAFF"
           bgColor="#F4F8FF"
           titleColor="#4583F0"
@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       {/* Extra Work Section */}
-      <section className="my-12 hidden">
+      <section className="my-12">
         <h2 className="mb-6 text-5xl font-extrabold">Extra Work</h2>
         {/* Dear Digital Equity */}
         <div className="flex gap-4">

@@ -74,7 +74,7 @@ export default function Home() {
       <section className="my-12">
         <h2 className="mb-6 text-5xl font-extrabold">Extra Work</h2>
         {/* Dear Digital Equity */}
-        <div className="flex gap-4">
+        <div className="flex flex-row max-md:flex-col gap-4">
           <MiniProjectCard
             image="/images/DDE/homeImage.png"
             link="/projects/DDE"
@@ -90,7 +90,7 @@ export default function Home() {
             bgColor="#FFFFFF"
           />
         </div>
-        <div className="flex gap-4 mt-4">
+        <div className="flex flex-row max-md:flex-col gap-4 mt-4">
           <MiniProjectCard
             image="/images/AtlasWR/homeImage.png"
             link="https://www.atlasworkrehabilitation.org/"
@@ -102,7 +102,7 @@ export default function Home() {
             image="/images/AlaisaInWonderland/homeImage.png"
             link="#"
             alt="A'Laisa In Wonderland"
-            borderColor="#EBE5FF"
+            borderColor="#EEEEEE"
             bgColor="#FFFFFF"
           />
         </div>

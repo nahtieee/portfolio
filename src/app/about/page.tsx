@@ -10,8 +10,8 @@ export default function About() {
             alt="Ethan Dith"
             className="h-full mx-auto shadow-lg border border-[#DADADA] object-cover"
             draggable={false}
-            width={320}
-            height={320}
+            width={800}
+            height={600}
             priority
           />
         </div>

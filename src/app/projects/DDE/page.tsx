@@ -226,7 +226,7 @@ export default function DDE() {
           </div>
 
           <div className="mb-16 mt-16 px-24 py-24 border-2 border-blue-600 text-center">
-            <h2 className="text-4xl font-bold mb-4">
+            <h2 className="text-4xl font-bold mb-4 text-center align-center">
               Washington faces a digital equity problem.
             </h2>
             <h5 className="text-xl">

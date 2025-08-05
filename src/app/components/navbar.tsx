@@ -99,7 +99,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/files/Resume.pdf"
+              href="/files/resume.pdf"
               className="hover:underline"
               target="_blank"
               rel="noopener noreferrer"

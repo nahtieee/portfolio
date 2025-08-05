@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className="container mx-auto px-4 py-12">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-        <div className="w-full md:w-1/3 flex justify-center">
+        <div className="w-full md:w-1/4 flex justify-center">
           <Image
             src="/images/profile3.webp"
             alt="Ethan Dith"
@@ -15,7 +15,7 @@ export default function About() {
             priority
           />
         </div>
-        <div className="w-full md:w-2/3 mt-8 md:mt-0">
+        <div className="w-full md:w-3/4 mt-5 md:mt-0">
           <div className="flex flex-col font-medium">
             <h2 className="text-xl">
               <span className="font-bold">Ethan Dith</span> -{" "}

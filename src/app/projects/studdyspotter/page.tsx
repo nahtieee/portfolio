@@ -131,7 +131,7 @@ export default function StuddySpotter() {
         </nav>
 
         {/* Hero Section */}
-        <div className="w-full flex flex-col items-center">
+        <section className="w-full flex flex-col items-center">
           <Image
             src="/images/StuddySpotter/Hero.png"
             alt="StuddySpotter Hero"
@@ -140,7 +140,7 @@ export default function StuddySpotter() {
             width={1920}
             height={1280}
           />
-        </div>
+        </section>
 
         {/* Overview */}
         <section id="overview" className="mt-12">
@@ -213,7 +213,7 @@ export default function StuddySpotter() {
             <Image
               src="/images/StuddySpotter/final_screens_mockup.jpg"
               alt="Final StuddySpotter App Screens Mockup"
-              className="my-32"
+              className="my-32 w-full"
               draggable={false}
               width={1920}
               height={1080}

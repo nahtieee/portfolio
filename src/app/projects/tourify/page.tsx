@@ -68,8 +68,8 @@ export default function Tourify() {
         document.body.scrollTop > 20 ||
         document.documentElement.scrollTop > 20
       ) {
-        mybutton?.classList.remove("hidden", "lg:flex"); 
-        mybutton?.classList.add("lg:flex"); 
+        mybutton?.classList.remove("hidden", "lg:flex");
+        mybutton?.classList.add("lg:flex");
       } else {
         mybutton?.classList.remove("lg:flex");
         mybutton?.classList.add("hidden");
@@ -191,7 +191,7 @@ export default function Tourify() {
                       Edmonds Historical Museum
                     </span>
                   </a>{" "}
-                  / 
+                  /
                   <a
                     href="https://www.figma.com/proto/RY7CWgUQlJrjYp05kLHgX9/Tourify?page-id=1%3A66&type=design&node-id=1-91&viewport=399%2C125%2C0.13&t=UNn3cte37wRRgHol-1&scaling=scale-down&starting-point-node-id=1%3A91&mode=design"
                     target="_blank"
@@ -250,7 +250,7 @@ export default function Tourify() {
               <Image
                 src="/images/Tourify/final.jpg"
                 alt="Tourify Final Designs"
-                className="my-32"
+                className="my-32 w-full"
                 draggable={false}
                 width={1920}
                 height={1080}
@@ -459,21 +459,36 @@ export default function Tourify() {
               {" "}
               <div className="p-10 border flex flex-col items-center key-features bg-gray-100 text-black rounded-2xl">
                 {" "}
-                <Image src="/images/Tourify/InterationVR.svg" height={1920} width={1080} alt="Virtual Reality"/>
+                <Image
+                  src="/images/Tourify/InterationVR.svg"
+                  height={1920}
+                  width={1080}
+                  alt="Virtual Reality"
+                />
                 <h5 className="font-bold text-xl mb-2">VR Tours</h5>
                 <h6 className="text-lg text-center">
                   Virtual tours and 3D renders of artifacts.
                 </h6>
               </div>
               <div className="p-10 border flex flex-col items-center key-features bg-gray-100 text-black rounded-2xl">
-                <Image src="/images/Tourify/InterationAR.svg" height={1920} width={1080} alt="Augmented Reality"/>
+                <Image
+                  src="/images/Tourify/InterationAR.svg"
+                  height={1920}
+                  width={1080}
+                  alt="Augmented Reality"
+                />
                 <h5 className="font-bold text-xl mt-3 mb-2">AR Tours</h5>
                 <h6 className="text-lg text-center">
                   Gamification and virtual tours.
                 </h6>
               </div>
               <div className="p-10 border flex flex-col items-center key-features bg-gray-100 text-black rounded-2xl">
-                <Image src="/images/Tourify/InterationInteractive.svg" height={1920} width={1080} alt="Interactive Exhibit"/>
+                <Image
+                  src="/images/Tourify/InterationInteractive.svg"
+                  height={1920}
+                  width={1080}
+                  alt="Interactive Exhibit"
+                />
                 <h5 className="font-bold text-xl mt-3 mb-2">
                   Sensory Exhibits
                 </h5>
@@ -520,7 +535,7 @@ export default function Tourify() {
                 </li>
               </ul>
             </div>
-            <hr className="my-12" /> 
+            <hr className="my-12" />
             <h2 className="font-bold text-4xl mb-4">Initial Mockup</h2>
             <h5 className="text-xl mb-12">
               The initial design reflects some of the key features that we plan
@@ -563,7 +578,7 @@ export default function Tourify() {
               changes to our initial design.
             </h5>
             <h5 className="font-bold text-xl mb-3">Changes</h5>{" "}
-=            <div className="space-y-3 mb-24">
+            <div className="space-y-3 mb-24">
               {" "}
               <h5 className="text-xl">
                 <span className="text-blue-400 mr-2">&bull;</span>Remove

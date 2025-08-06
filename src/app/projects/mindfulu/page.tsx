@@ -476,9 +476,9 @@ export default function MindfulU() {
             <div className="mt-12">
               <h3 className="font-bold text-3xl mb-4">Final Screens</h3>
               <Image
-                src="/images/MU/finalDesigns.webp"
+                src="/images/MU/finalDesigns.jpg"
                 alt="MindfulU Final Designs"
-                className="w-full h-auto rounded-2xl border-1 border-[#DADADA]"
+                className="w-full h-auto rounded-4xl border-2 border-[#D4DFF5]"
                 loading="lazy"
                 draggable={false}
                 width={1920}

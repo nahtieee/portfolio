@@ -172,8 +172,8 @@ export default function MindfulU() {
             alt="MindfulU Hero Image"
             className="w-full max-h-[1280px] object-cover"
             draggable={false}
-            width={1920}
-            height={1080}
+            width={2560}
+            height={1400}
           />
         </div>
         <div>
@@ -357,8 +357,8 @@ export default function MindfulU() {
               className="w-full h-auto rounded-2xl border-1 border-[#DADADA] mb-12"
               loading="lazy"
               draggable={false}
-              width={1920}
-              height={1080}
+              width={2560}
+              height={1400}
             />
           </section>
           {/* Testing + Improvements Section */}
@@ -481,8 +481,8 @@ export default function MindfulU() {
                 className="w-full h-auto rounded-4xl border-2 border-[#D4DFF5]"
                 loading="lazy"
                 draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
               />
             </div>
           </section>
@@ -564,8 +564,8 @@ export default function MindfulU() {
                     alt="Tourify"
                     className="w-full h-full object-cover rounded-lg border-2 border-gray-400 shadow"
                     draggable={false}
-                    width={1920}
-                    height={1080}
+                    width={2560}
+                    height={1400}
                   />
                 </a>
                 <a
@@ -577,8 +577,8 @@ export default function MindfulU() {
                     alt="StuddySpotter"
                     className="w-full h-full object-cover rounded-lg border-2 border-purple-400 shadow"
                     draggable={false}
-                    width={1920}
-                    height={1080}
+                    width={2560}
+                    height={1400}
                   />
                 </a>
               </div>

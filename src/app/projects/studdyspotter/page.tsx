@@ -137,7 +137,7 @@ export default function StuddySpotter() {
             alt="StuddySpotter Hero"
             className="w-full max-h-[1280px] object-cover border-b-4 border-gray-200 hero-border"
             draggable={false}
-            width={1920}
+            width={2560}
             height={1280}
           />
         </section>
@@ -215,8 +215,8 @@ export default function StuddySpotter() {
               alt="Final StuddySpotter App Screens Mockup"
               className="my-32 w-full"
               draggable={false}
-              width={1920}
-              height={1080}
+              width={2560}
+              height={1400}
             />
           </div>
         </section>
@@ -565,8 +565,8 @@ export default function StuddySpotter() {
                 alt="Initial App Screen 1"
                 className="rounded-lg w-full h-full shadow mb-4 md:mb-0"
                 draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
               />
             </div>
           </div>
@@ -676,8 +676,8 @@ export default function StuddySpotter() {
                 alt="Search and Filter Redesign Example"
                 className="rounded-lg w-full h-full shadow mb-4"
                 draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
               />
             </div>
             <div className="md:w-2/5 flex flex-col justify-center">
@@ -723,8 +723,8 @@ export default function StuddySpotter() {
                 alt="Review and Bookmark Button Redesign Example"
                 className="rounded-lg w-full h-full shadow mb-4"
                 draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
               />
             </div>
             <div className="md:w-2/5 flex flex-col justify-center">
@@ -887,8 +887,8 @@ export default function StuddySpotter() {
               alt="StuddySpotter Sticker Sheet"
               className="mx-auto w-full h-full shadow rounded-lg"
               draggable={false}
-              width={1920}
-              height={1080}
+              width={2560}
+              height={1400}
             />
           </div>
           {/* Next Projects */}
@@ -902,8 +902,8 @@ export default function StuddySpotter() {
                     alt="MindfulU"
                     className="w-full h-full object-cover rounded-lg border-2 border-gray-400 shadow"
                     draggable={false}
-                    width={1920}
-                    height={1080}
+                    width={2560}
+                    height={1400}
                   />
                 </a>
                 <a
@@ -915,8 +915,8 @@ export default function StuddySpotter() {
                     alt="MindfulU"
                     className="w-full h-full  object-cover rounded-lg border-2 border-blue-400 shadow"
                     draggable={false}
-                    width={1920}
-                    height={1080}
+                    width={2560}
+                    height={1400}
                   />
                 </a>
               </div>

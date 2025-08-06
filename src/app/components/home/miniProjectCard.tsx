@@ -38,8 +38,8 @@ const MiniProjectCard: React.FC<MiniProjectCardProps> = ({
           alt={alt}
           className="object-cover w-full h-full transition-opacity duration-500"
           draggable={false}
-          width={1920}
-          height={1080}
+          width={2560}
+          height={1400}
         />
 
         <div

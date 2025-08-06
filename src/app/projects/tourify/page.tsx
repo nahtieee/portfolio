@@ -156,8 +156,8 @@ export default function Tourify() {
             alt="Tourify Hero Image"
             className="w-full max-h-[1280px] object-cover"
             draggable={false}
-            width={1920}
-            height={1080}
+            width={2560}
+            height={1400}
           />
         </div>
 
@@ -252,8 +252,8 @@ export default function Tourify() {
                 alt="Tourify Final Designs"
                 className="my-32 w-full"
                 draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
               />
             </div>
           </section>
@@ -344,8 +344,8 @@ export default function Tourify() {
                   alt="Murakami Artwork Seattle Asian Art Museum"
                   className="w-full h-auto rounded-2xl"
                   draggable={false}
-                  width={1920}
-                  height={1080}
+                  width={2560}
+                  height={1400}
                 />
               </div>
               <div className="lg:w-5/7 flex flex-col justify-center">
@@ -398,8 +398,8 @@ export default function Tourify() {
                   alt="Persona"
                   className="w-full h-auto rounded-2xl border-1 border-[#DADADA]"
                   draggable={false}
-                  width={1920}
-                  height={1080}
+                  width={2560}
+                  height={1400}
                 />
               </div>
             </div>
@@ -461,8 +461,8 @@ export default function Tourify() {
                 {" "}
                 <Image
                   src="/images/Tourify/InterationVR.svg"
-                  height={1920}
-                  width={1080}
+                  height={2560}
+                  width={1400}
                   alt="Virtual Reality"
                 />
                 <h5 className="font-bold text-xl mb-2">VR Tours</h5>
@@ -473,8 +473,8 @@ export default function Tourify() {
               <div className="p-10 border flex flex-col items-center key-features bg-gray-100 text-black rounded-2xl">
                 <Image
                   src="/images/Tourify/InterationAR.svg"
-                  height={1920}
-                  width={1080}
+                  height={2560}
+                  width={1400}
                   alt="Augmented Reality"
                 />
                 <h5 className="font-bold text-xl mt-3 mb-2">AR Tours</h5>
@@ -485,8 +485,8 @@ export default function Tourify() {
               <div className="p-10 border flex flex-col items-center key-features bg-gray-100 text-black rounded-2xl">
                 <Image
                   src="/images/Tourify/InterationInteractive.svg"
-                  height={1920}
-                  width={1080}
+                  height={2560}
+                  width={1400}
                   alt="Interactive Exhibit"
                 />
                 <h5 className="font-bold text-xl mt-3 mb-2">
@@ -550,16 +550,16 @@ export default function Tourify() {
                 alt="Initial Designs of Tourify"
                 className="w-full h-full mb-4 md:mb-0 border-[#DADADA] border-1 rounded-2xl"
                 draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
               />
               <Image
                 src="/images/Tourify/initalDesigns2.jpg"
                 alt="Initial Designs of Tourify"
                 className="w-full h-full border-[#DADADA] border-1 rounded-2xl"
                 draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
               />
             </div>
           </section>
@@ -607,8 +607,8 @@ export default function Tourify() {
                   alt="First Iteration of Tourify"
                   className="w-full h-full border-[#DADADA] border-1 rounded-2xl"
                   draggable={false}
-                  width={1920}
-                  height={1080}
+                  width={2560}
+                  height={1400}
                 />
               </div>
               <div className="md:w-2/5 flex flex-col justify-center">
@@ -646,8 +646,8 @@ export default function Tourify() {
               alt="All Screens for the final designs of Tourify"
               className="w-full h-auto mb-24 rounded-2xl border-1 border-[#DADADA]"
               draggable={false}
-              width={1920}
-              height={1080}
+              width={2560}
+              height={1400}
             />
           </section>
           <section id="conclusion" className="mt-20 container mx-auto px-4">
@@ -761,8 +761,8 @@ export default function Tourify() {
                     alt="MindfulU"
                     className="w-full h-full object-cover rounded-lg border-2 border-blue-400 shadow"
                     draggable={false}
-                    height={1080}
-                    width={1920}
+                    height={1400}
+                    width={2560}
                   />
                 </a>
                 <a
@@ -774,8 +774,8 @@ export default function Tourify() {
                     alt="StuddySpotter"
                     className="w-full h-full  object-cover rounded-lg border-2 border-purple-400 shadow"
                     draggable={false}
-                    height={1080}
-                    width={1920}
+                    height={1400}
+                    width={2560}
                   />
                 </a>
               </div>

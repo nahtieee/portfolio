@@ -115,8 +115,8 @@ export default function DDE() {
           src="/images/DDE/Hero.jpg"
           alt="Dear Digital Equity Hero"
           draggable={false}
-          width={1920}
-          height={1080}
+          width={2560}
+          height={1400}
         />
       </div>
       <div className="container mx-auto px-4 py-8">
@@ -313,8 +313,8 @@ export default function DDE() {
               alt="Our Process"
               className="w-full h-auto"
               draggable={false}
-              width={1920}
-              height={1080}
+              width={2560}
+              height={1400}
             />
           </div>
         </section>
@@ -343,8 +343,8 @@ export default function DDE() {
               alt="Wireframe"
               className="w-full h-auto"
               draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
 
             />
           </div>
@@ -378,8 +378,8 @@ export default function DDE() {
               alt="Final Mockup"
               className="w-full h-auto"
               draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
             />
           </div>
 
@@ -390,8 +390,8 @@ export default function DDE() {
               alt="Style Guide"
               className="w-full h-auto"
               draggable={false}
-                width={1920}
-                height={1080}
+                width={2560}
+                height={1400}
             />
           </div>
           <div className="text-left mt-12 mb-4">
@@ -457,15 +457,15 @@ export default function DDE() {
                 src="/images/DDE/Content1.jpg"
                 alt="Content Deliverable 1"
                 draggable={false}
-                height={1920}
-                width={1080}
+                height={2560}
+                width={1400}
               />
               <Image
                 src="/images/DDE/Content2.jpg"
                 alt="Content Deliverable 2"
                 draggable={false}
-                height={1920}
-                width={1080}
+                height={2560}
+                width={1400}
               />
             </div>
           </div>

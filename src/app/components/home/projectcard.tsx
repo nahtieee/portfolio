@@ -50,8 +50,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             title={title}
             className="max-h-[400px] 2xl:max-h-[500px] w-full object-fill rounded-lg"
             draggable={false}
-            width={1920}
-            height={1080}
+            width={2560}
+            height={1400}
           />
         </div>
         <div className="flex flex-col justify-center items-start text-left py-8 px-4 max-w-lg">

@@ -34,11 +34,13 @@ export default function Navbar() {
   };
 
   useEffect(() => {
+    // This is the key part that prevents scrolling
     if (open) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
     }
+    // Cleanup function to ensure scrolling is re-enabled on component unmount
     return () => {
       document.body.style.overflow = "";
     };

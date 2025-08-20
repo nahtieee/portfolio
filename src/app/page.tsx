@@ -101,7 +101,6 @@ export default function Home() {
           <MiniProjectCard
             image="/images/AlaisaInWonderland/homeImage.png"
             link="#"
-            alt="A'Laisa In Wonderland"
             borderColor="#EEEEEE"
             bgColor="#FFFFFF"
           />

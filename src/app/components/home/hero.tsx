@@ -86,9 +86,9 @@ export default function Hero() {
       </div>
 
       {/* Subheader */}
-      <div className="mt-12 w-full lg:w-7/15">
+      <div className="mt-10 w-full lg:w-7/15">
         <h6 className="text-[1.5rem] italic text-left">
-          Focused on building inclusive and meaningful experiences that make a
+          Focused on building meaningful experiences that make a
           difference
         </h6>
       </div>

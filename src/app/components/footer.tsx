@@ -6,7 +6,10 @@ export default function Footer() {
     <footer className="w-full text-center pb-12">
       <div className="justify-between flex gap-4 container mx-auto px-4 border-t border-gray-300 py-4">
         <p className="text-md font-semibold">
-          © {new Date().getFullYear()} Ethan Dith
+          © {new Date().getFullYear()} Ethan Dith 
+        </p>
+        <p className="text-md font-normal">
+          Built using Next.js and Tailwind CSS
         </p>
         <div className="flex gap-4 items-center justify-center">
             <Link

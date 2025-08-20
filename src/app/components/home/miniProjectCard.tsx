@@ -16,7 +16,6 @@ const MiniProjectCard: React.FC<MiniProjectCardProps> = ({
   link,
   borderColor = "#E7E7E7",
   bgColor = "white",
-  ribbon,
 }) => {
   return (
     <a
@@ -30,25 +29,23 @@ const MiniProjectCard: React.FC<MiniProjectCardProps> = ({
       tabIndex={0}
       aria-label={alt}
     >
-      {ribbon}
-
       <div className="relative w-full h-full">
         <Image
           src={image}
           alt={alt}
-          className="object-cover w-full h-full transition-opacity duration-500"
+          className="object-cover w-full h-full duration-500"
           draggable={false}
           width={2560}
           height={1400}
         />
 
         <div
-          className="absolute inset-0 bg-black hover:opacity-80 flex items-center justify-center 
-                     transition-opacity duration-500 opacity-0"
+          className="absolute inset-0 bg-black hover:opacity-90 flex items-center justify-center 
+                      duration-500 opacity-0"
         >
           <div
             className="text-white text-center text-2xl font-bold px-4 
-                        transition-opacity duration-500"
+                        duration-500"
           >
             {alt}
           </div>

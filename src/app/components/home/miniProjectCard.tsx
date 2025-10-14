@@ -29,7 +29,7 @@ const MiniProjectCard: React.FC<MiniProjectCardProps> = ({
       tabIndex={0}
       aria-label={alt}
     >
-      <div className="relative w-full h-full">
+      <div className="relative w-full h-full flex items-center justify-center"> 
         <Image
           src={image}
           alt={alt}

@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row max-md:flex-col gap-4 mt-4">
           <MiniProjectCard
-            image="/images/DDE/homeImage.png"
+            image="/images/DDE/homeImage.png" 
             link="/projects/DDE"
             alt="Dear Digital Equity"
             borderColor="#EBE5FF"

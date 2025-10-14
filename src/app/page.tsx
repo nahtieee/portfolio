@@ -71,16 +71,16 @@ export default function Home() {
       </section>
 
       {/* Extra Work Section */}
-      <section className="my-12">
+      <section className="mt-24 mb-12">
         <h2 className="mb-6 text-5xl font-extrabold">Extra Work</h2>
         {/* Dear Digital Equity */}
         <div className="flex flex-row max-md:flex-col gap-4">
           <MiniProjectCard
-            image="/images/DDE/homeImage.png"
-            link="/projects/DDE"
-            alt="Dear Digital Equity"
-            borderColor="#EBE5FF"
-            bgColor="#F4F1FF"
+            image="/images/AtlasWR/homeImage.png"
+            link="https://www.atlasworkrehabilitation.org/"
+            alt="Atlas Work Rehabilitation"
+            borderColor="#EEEEEE"
+            bgColor="#FFFFFF"
           />
           <MiniProjectCard
             image="/images/AtlasPT/homeImage.png"
@@ -92,18 +92,18 @@ export default function Home() {
         </div>
         <div className="flex flex-row max-md:flex-col gap-4 mt-4">
           <MiniProjectCard
-            image="/images/AtlasWR/homeImage.png"
-            link="https://www.atlasworkrehabilitation.org/"
-            alt="Atlas Work Rehabilitation"
-            borderColor="#EEEEEE"
-            bgColor="#FFFFFF"
+            image="/images/DDE/homeImage.png"
+            link="/projects/DDE"
+            alt="Dear Digital Equity"
+            borderColor="#EBE5FF"
+            bgColor="#F4F1FF"
           />
-          <MiniProjectCard
+          {/* <MiniProjectCard
             image="/images/AlaisaInWonderland/homeImage.png"
             link="#"
             borderColor="#EEEEEE"
             bgColor="#FFFFFF"
-          />
+          /> */}
         </div>
       </section>
     </section>

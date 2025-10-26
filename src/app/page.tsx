@@ -36,19 +36,6 @@ export default function Home() {
           bgColor="#F2F2F2"
           titleColor="#252525"
         />
-        {/* DDE */}
-        <ProjectCard
-          title="Dear Digital Equity"
-          description="Spreading Digital Equity Awareness through Storytelling"
-          details="Web App • Community Project"
-          tags={["UI/UX Design", "Web Development"]}
-          image="/images/DDE/homeImage.png"
-          link="/projects/DDE"
-          borderColor="#EBE5FF"
-          bgColor="#F4F1FF"
-          titleColor="#6B58A3"
-          reverse
-        />
         {/* MindfulU */}
         <ProjectCard
           title="MindfulU"
@@ -79,6 +66,19 @@ export default function Home() {
               </span>
             </div>
           }
+        />
+        {/* DDE */}
+        <ProjectCard
+          title="Dear Digital Equity"
+          description="Spreading Digital Equity Awareness"
+          details="Website • Class Project"
+          tags={["UI/UX Design", "Web Development"]}
+          image="/images/DDE/homeImage.png"
+          link="/projects/DDE"
+          borderColor="#EBE5FF"
+          bgColor="#F4F1FF"
+          titleColor="#6B58A3"
+          className="min-md:mr-12"
         />
       </section>
 

@@ -14,6 +14,7 @@ interface ProjectCardProps {
   titleColor?: string;
   reverse?: boolean;
   ribbon?: React.ReactNode;
+  className?: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -28,6 +29,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   titleColor = "#252525",
   reverse = false,
   ribbon,
+  className,
 }) => {
   return (
     <div
@@ -43,7 +45,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           reverse ? "lg:flex-row-reverse " : ""
         } items-center justify-center w-full h-full text-foreground`}
       >
-        <div className="flex justify-center items-center">
+        <div className={`flex justify-center items-center ${className}`}>
           <Image
             src={image}
             alt={title}

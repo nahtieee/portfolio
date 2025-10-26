@@ -40,11 +40,11 @@ const MiniProjectCard: React.FC<MiniProjectCardProps> = ({
         />
 
         <div
-          className="absolute inset-0 bg-black hover:opacity-90 flex items-center justify-center 
-                      duration-500 opacity-0"
+          className="absolute inset-0 bg-white hover:opacity-70 flex items-center justify-center 
+                      duration-500 opacity-0 "
         >
           <div
-            className="text-white text-center text-2xl font-bold px-4 
+            className="text-gray-800 text-center text-2xl font-bold px-4 
                         duration-500"
           >
             {alt}

@@ -36,7 +36,19 @@ export default function Home() {
           bgColor="#F2F2F2"
           titleColor="#252525"
         />
-
+        {/* DDE */}
+        <ProjectCard
+          title="Dear Digital Equity"
+          description="Spreading Digital Equity Awareness through Storytelling"
+          details="Web App • Community Project"
+          tags={["UI/UX Design", "Web Development"]}
+          image="/images/DDE/homeImage.png"
+          link="/projects/DDE"
+          borderColor="#EBE5FF"
+          bgColor="#F4F1FF"
+          titleColor="#6B58A3"
+          reverse
+        />
         {/* MindfulU */}
         <ProjectCard
           title="MindfulU"
@@ -90,21 +102,14 @@ export default function Home() {
             bgColor="#FFFFFF"
           />
         </div>
-        <div className="flex flex-row max-md:flex-col gap-4 mt-4">
+        {/* <div className="flex flex-row max-md:flex-col gap-4 mt-4">
           <MiniProjectCard
-            image="/images/DDE/homeImage.png" 
-            link="/projects/DDE"
-            alt="Dear Digital Equity"
-            borderColor="#EBE5FF"
-            bgColor="#F4F1FF"
-          />
-          {/* <MiniProjectCard
             image="/images/AlaisaInWonderland/homeImage.png"
             link="#"
             borderColor="#EEEEEE"
             bgColor="#FFFFFF"
-          /> */}
-        </div>
+          />
+        </div> */}
       </section>
     </section>
   );

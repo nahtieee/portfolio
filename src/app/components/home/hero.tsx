@@ -127,13 +127,13 @@ export default function Hero() {
         </a>
       </div>
 
-      {/* <div className="mt-56 relative w-full h-10 flex justify-center items-center">
+      <div className="mt-12 relative w-full h-10 flex justify-center items-center">
         <a
           href="#work"
           aria-label="Read more about my work below"
-          className="block w-[30px] h-[30px] border-r-[7px] border-b-[7px] border-[#252525] rotate-45 text-center absolute right-0 left-0 m-0 mx-auto"
+          className="block w-[30px] h-[30px] border-r-[7px] border-b-[7px] rotate-45 text-center absolute right-0 left-0 m-0 mx-auto"
         />
-      </div> */}
+      </div>
     </section>
   );
 }

@@ -158,7 +158,11 @@ export default function Tourify() {
             draggable={false}
             width={2560}
             height={1400}
+            priority
+            sizes="100vw"
+            quality={80}
           />
+        
         </div>
 
         <div className="">

@@ -108,6 +108,8 @@ export default function Hero() {
             className="invert"
             width={50}
             height={50}
+            loading="eager"
+            quality={80}
           />
         </a>
         <a
@@ -123,6 +125,8 @@ export default function Hero() {
             className="invert"
             width={50}
             height={50}
+            loading="eager"
+            quality={80}
           />
         </a>
       </div>

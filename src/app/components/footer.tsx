@@ -8,9 +8,6 @@ export default function Footer() {
         <p className="text-md font-semibold">
           © {new Date().getFullYear()} Ethan Dith 
         </p>
-        <p className="text-md font-normal">
-          Built using Next.js and Tailwind CSS
-        </p>
         <div className="flex gap-4 items-center justify-center">
             <Link
               href="https://www.linkedin.com/in/ethandith"
@@ -23,6 +20,8 @@ export default function Footer() {
             className="h-6 w-6 inline-block footer-icons"
             width={24}
             height={24}
+            loading="eager"
+            quality={85}
           />
           </Link>
           <Link
@@ -34,6 +33,8 @@ export default function Footer() {
             className="h-6 w-6 inline-block footer-icons"
             width={24}
             height={24}
+            loading="eager"
+            quality={85}
           />
           </Link>
         </div>

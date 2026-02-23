@@ -1,37 +1,12 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolledDown, setScrolledDown] = useState(false);
   const lastScrollTop = useRef(0);
   const scrollUpStart = useRef<number | null>(null);
-  const [theme, setTheme] = useState<"light" | "dark">("light");
-
-  useEffect(() => {
-    const stored = localStorage.getItem("theme");
-    if (stored === "dark") {
-      setTheme("dark");
-      document.documentElement.classList.add("dark");
-    } else {
-      setTheme("light");
-      document.documentElement.classList.remove("dark");
-    }
-  }, []);
-
-  const toggleTheme = () => {
-    if (theme === "light") {
-      setTheme("dark");
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      setTheme("light");
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  };
 
   useEffect(() => {
     // This is the key part that prevents scrolling
@@ -108,71 +83,6 @@ export default function Navbar() {
             >
               RESUME
             </Link>
-          </li>
-          {/* Theme Toggle Switch - right of links, hidden on mobile */}
-          <li className="flex items-center">
-            <button
-              onClick={toggleTheme}
-              aria-label="Toggle dark mode"
-              className="focus:outline-none hidden sm:block h-8"
-              style={{ minWidth: 56 }}
-            >
-              <span
-                className={`
-        relative inline-block w-14 h-8 rounded-full transition-colors duration-300
-        ${theme === "dark" ? "bg-[#d8d8d8]" : "bg-[#bebebe]"}
-      `}
-              >
-                <span
-                  className={`
-          absolute top-1 left-1 w-6 h-6 rounded-full transition-all duration-300 shadow-md
-          ${
-            theme === "dark"
-              ? "translate-x-6 bg-gradient-to-br from-yellow-400 to-yellow-500"
-              : "translate-x-0 bg-gradient-to-br from-gray-200 to-white"
-          }
-        `}
-                  style={{
-                    boxShadow:
-                      theme === "dark"
-                        ? "0 2px 8px 0 #0004"
-                        : "0 2px 8px 0 #8882",
-                  }}
-                />
-                {/* Sun/Moon icons */}
-                <span
-                  className="absolute left-2 top-2 text-xs select-none pointer-events-none transition-opacity duration-300"
-                  style={{ opacity: theme === "dark" ? 0 : 1 }}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    className="bi bi-sun-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
-                  </svg>
-                </span>
-                <span
-                  className="absolute right-2 top-2 text-xs select-none pointer-events-none transition-opacity duration-300"
-                  style={{ opacity: theme === "dark" ? 1 : 0 }}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    viewBox="0 0 16 16"
-                    className="bi bi-moon-stars-fill"
-                  >
-                    <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
-                    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z" />
-                  </svg>
-                </span>
-              </span>
-            </button>
           </li>
         </ul>
         {/* Hamburger menu for mobile remains unchanged */}

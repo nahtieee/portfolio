@@ -37,6 +37,8 @@ const MiniProjectCard: React.FC<MiniProjectCardProps> = ({
           draggable={false}
           width={2560}
           height={1400}
+          sizes="(max-width: 768px) 100vw, 33vw"
+          quality={70}
         />
 
         <div

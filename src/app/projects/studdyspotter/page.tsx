@@ -139,6 +139,9 @@ export default function StuddySpotter() {
             draggable={false}
             width={2560}
             height={1280}
+            priority
+            sizes="100vw"
+            quality={80}
           />
         </section>
 

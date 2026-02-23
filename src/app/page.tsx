@@ -81,36 +81,6 @@ export default function Home() {
           className="min-md:mr-12"
         />
       </section>
-
-      {/* Extra Work Section */}
-      <section className="mt-24 mb-12">
-        <h2 className="mb-6 text-5xl font-extrabold">Extra Work</h2>
-        {/* Dear Digital Equity */}
-        <div className="flex flex-row max-md:flex-col gap-4">
-          <MiniProjectCard
-            image="/images/AtlasWR/homeImage.png"
-            link="https://www.atlasworkrehabilitation.org/"
-            alt="Atlas Work Rehabilitation"
-            borderColor="#EEEEEE"
-            bgColor="#FFFFFF"
-          />
-          <MiniProjectCard
-            image="/images/AtlasPT/homeImage.png"
-            link="https://www.atlaspt.org/"
-            alt="Atlas Physical Therapy"
-            borderColor="#EEEEEE"
-            bgColor="#FFFFFF"
-          />
-        </div>
-        {/* <div className="flex flex-row max-md:flex-col gap-4 mt-4">
-          <MiniProjectCard
-            image="/images/AlaisaInWonderland/homeImage.png"
-            link="#"
-            borderColor="#EEEEEE"
-            bgColor="#FFFFFF"
-          />
-        </div> */}
-      </section>
     </section>
   );
 }

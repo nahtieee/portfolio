@@ -54,6 +54,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             draggable={false}
             width={2560}
             height={1400}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            quality={75}
           />
         </div>
         <div className="flex flex-col justify-center items-start text-left py-8 px-4 max-w-lg">
